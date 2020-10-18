@@ -5,7 +5,7 @@ fun main() {
      * One way creating array
      */
     val cities = arrayOf("Bangalore", "Mumbai", "Delhi")
-    println("cities value = " + cities.contentToString())
+    println("cities value = " + cities.contentToString())   // contentToString converts the content of an array into a string
 
     /**
      * Arrays with all the elements sets to null can be created, and later a value can be assigned using the indexing operator [] or set method
