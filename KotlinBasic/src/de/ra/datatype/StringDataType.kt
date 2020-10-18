@@ -20,7 +20,7 @@ fun main() {
     println(multiLineString)
 
     // Printing multiLineString, it contains all the spaces till Welcome, therefore to trim those spaces, indent your statements and use
-    // trimIndent
+    // trimIndent. (Note: there are different ways to trim the spaces.)
 
     val trimmedMultiLineString: String = """
         Hi there!!!!
