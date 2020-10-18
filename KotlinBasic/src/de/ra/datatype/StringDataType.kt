@@ -5,6 +5,12 @@ fun main() {
     println("${year::class.qualifiedName}")
 
     /**
+     * Empty string can be created using String constructor
+     */
+    val emptyString = String()
+    println("Empty String = $emptyString")
+
+    /**
      * One way of declaring String is using double quotes and can contain escape characters like \n
      */
     val cities = "Bangalore\nMumbai\nDelhi\nPune"
