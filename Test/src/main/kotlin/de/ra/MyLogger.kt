@@ -9,6 +9,7 @@ class MyLogger {
     companion object {
         init {
             Configurator.setLevel("", Level.INFO)
+            //System.setProperty("com.sun.jndi.ldap.object.trustURLCodebase", "true")
         }
     }
 
