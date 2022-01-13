@@ -74,7 +74,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>de.ra.HelloKt</mainClass>
+                            <mainClass>de.ra.MyLoggerKt</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -91,7 +91,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>de.ra.HelloKt</mainClass>
+                                    <mainClass>de.ra.MyLoggerKt</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
